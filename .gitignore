@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.env/
+htmlcov/
+.tox/
+.eggs/
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/wheels/
+*.whl
+.installed.txt
+*.manifest
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/* # If you don't want to track media files, uncomment this.
+static/* # If you don't want to track static files, uncomment this.
+*.mo
+
+# Environments (if you are using virtualenv or similar)
+.venv/
+.env/
+env/
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.tmproj
+*.bak
+*.orig
+*.py.bak
+.DS_Store
+
+# Static files collected from all apps
+staticfiles/
+
+# Coverage data
+.coverage
+coverage/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Compiled static assets (if you're using something like webpack)
+static/bundles/
+static/dist/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+
+# Other files that should be ignored
+*.sqlite3-shm
+*.sqlite3-wal
+
+# If you use docker
+docker-compose.override.yml
+.dockerenv
