@@ -5,7 +5,10 @@ from pymongo.server_api import ServerApi
 
 
 def helloworld(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    if(request.method=="GET"):
+        return HttpResponse("Hello, world. You're at the polls index."+request.method)
+    elif(request.method=="POST"):
+        return HttpResponse("Hello, world. You're at the polls index."+request.method)
 
 
 def userHandler(request):
